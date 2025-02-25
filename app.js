@@ -6,6 +6,7 @@ const localhost = '127.0.0.1';
 
 const server = http.createServer(async (req, res) => {
     try {
+        console.log('hello');
         res.statusCode = 200;
         res.end('hello world!');
     } catch (err) {
